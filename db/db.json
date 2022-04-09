@@ -1,0 +1,70 @@
+{
+  "Restaurant": [
+    {
+      "id": 1,
+      "name": "pizzahut",
+      "address": "kanpur",
+      "email": "pizzahut@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Mac donald",
+      "address": "kanpur city",
+      "email": "mac@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "pz resto",
+      "address": "kanpur noida",
+      "email": "pz@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "ws restaurant",
+      "address": "kanpur",
+      "email": "ws@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "ws restaurant",
+      "address": "kanpur",
+      "email": "ws@gmail.com"
+    },
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "id": 7
+    },
+    {
+      "name": "Tejas Sunil Mathkar",
+      "email": "tejmathkar@gmail.com",
+      "address": "1302, Vishwabharati CGS, Shraddha Autumn Park indira Nagar , Kanjurmarg(E)",
+      "id": 8
+    },
+    {
+      "name": "Abhaya",
+      "email": "kumarabhaya26398@gmail.com",
+      "address": "Vill KATINNA MANIKPUR post KANHEPUR dist FARRUKHABAD pin cod",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "id": 10
+    },
+    {
+      "name": "kfc",
+      "email": "kfc@gmail.com",
+      "address": "noida",
+      "id": 11
+    }
+  ]
+}
