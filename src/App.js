@@ -30,7 +30,7 @@ function App() {
       <Nav.Link href="#features"><NavLink className={'link'} to="/list">List</NavLink></Nav.Link>
       <Nav.Link href="#features"><NavLink className={'link'} to="/details">Details</NavLink></Nav.Link>
       <Nav.Link href="#features"><NavLink className={'link'} to="/create">Create</NavLink></Nav.Link>
-      <Nav.Link href="#features"><NavLink className={'link'} to="/update">Update</NavLink></Nav.Link>
+      <Nav.Link href="#features"><NavLink className={'link'} to="/update" >Update</NavLink></Nav.Link>
       <Nav.Link href="#features"><NavLink className={'link'} to="/search">Search</NavLink></Nav.Link>
 
 
@@ -60,7 +60,7 @@ function App() {
 <Route path='/list' element={<RestorantList />} />
 <Route path='/details' element={<RestorantDetails />} />
 <Route path='/search' element={<RestorantSearch />} />
-<Route path='/update' element={<RestorantUpdate />} />
+<Route path='/update/:id' element={<RestorantUpdate />} />
 <Route path='/create' element={<RestorantCreate />} />
 
 </Routes>

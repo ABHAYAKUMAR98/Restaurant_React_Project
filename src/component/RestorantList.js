@@ -34,7 +34,7 @@ const RestorantList = () => {
         <th>Rest. Name</th>
         <th>Rest. address</th>
         <th>Rest. email</th>
-        <th>Update</th>
+        <th>Operation</th>
       </tr>
       </thead> 
       {
@@ -44,7 +44,7 @@ const RestorantList = () => {
             <td>{item.name}</td>
             <td>{item.address}</td>
             <td>{item.email}</td>
-            <td><NavLink className={'link'} to={"/update/"}>Update</NavLink></td>
+            <td><NavLink className={'link'} to={"/update/"+item.id} >Edit</NavLink></td>
             </tr>
 
             </tbody>
